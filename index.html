@@ -34,20 +34,18 @@
     <!-- Template Main CSS File -->
     <link href="../static/css/main.css" rel="stylesheet">
 
-<style>
-
-.myform{
-    border: 2px solid pink;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    width: 50%;
-    text-align: center;
-    margin-left: 30%;
-    padding: 30px;
-}
-
-</style>
+    <style>
+        .myform {
+            border: 2px solid pink;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            width: 50%;
+            text-align: center;
+            margin-left: 30%;
+            padding: 30px;
+        }
+    </style>
 </head>
 
 <body>
@@ -204,42 +202,32 @@
 
                 <div class="row gy-4">
 
-                    <!-- <div class="col-md-6">
-            <div class="info-item  d-flex align-items-center">
-              <i class="icon bi bi-map flex-shrink-0"></i>
-              <div>
-                <h3>My Address</h3>
-                <p>Kampala, Uganda</p>
-              </div>
-            </div>
-          </div>End Info Item -->
-
                     <div class="col-md-6">
                         <div class="info-item d-flex align-items-center">
                             <i class="icon bi bi-envelope flex-shrink-0"></i>
                             <div>
-                                <!-- <h3>Email me</h3> -->
+
                                 <p>akulluwinnifred1@gmail.com</p>
                             </div>
                         </div>
-                    </div><!-- End Info Item -->
+                    </div>
 
                     <div class="col-md-6">
                         <div class="info-item  d-flex align-items-center">
                             <i class="icon bi bi-telephone flex-shrink-0"></i>
                             <div>
-                                <!-- <h3>Call me</h3> -->
+
                                 <p>+256782781848</p>
                             </div>
                         </div>
-                    </div><!-- End Info Item -->
-                 
+                    </div>
+
 
                     <div class="col-md-6">
                         <div class="info-item d-flex align-items-center">
                             <i class="bi bi-linkedin" style="font-size: 3rem;"></i>
                             <div style="margin-left: 15px;">
-                                <!-- <h3>LinkedIn</h3> -->
+
                                 <p><a href="https://www.linkedin.com/in/akullu-winnifred-373b912b2//">LinkedIn</a></p>
                             </div>
                         </div>
@@ -249,41 +237,103 @@
                         <div class="info-item d-flex align-items-center">
                             <i class="bi bi-github" style="font-size: 3.5rem;"></i>
                             <div style="margin-left: 15px;">
-                                <!-- <h3>GitHub</h3> -->
                                 <p><a href="https://github.com/Akulluwinnifred?tab=repositories">GitHub</a></p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="myform">
-                        <form action="https://formspree.io/f/mjvndngr" method="POST">
-                            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;">Connect with me</h2>
-                            <label>
-                                <!-- Email:<br> -->
-                                <input type="email" name="email" placeholder="enter email"><br>
-                            </label><br><br>
-                            <label>
-                                <!-- Contact:<br> -->
-                                <input type="email" name="email" placeholder="enter your contact"><br>
-                            </label><br><br>
-                            <label>
-                            
-                                <textarea name="message" placeholder="enter any message"></textarea><br>
-                            </label><br><br>
-                            <!-- your other form fields go here -->
-                            <button type="submit" style="border: 2px solid rgb(213, 149, 160);margin-bottom: 20px;background-color: rgb(213, 149, 160);border-radius: 10px;" >Send</button>
-                        </form>
-                    </div>
-
-                </div>
 
 
-            </div>
         </section><!-- End Contact Section -->
 
-    </main><!-- End #main -->
+        </div>
 
-    <!-- ======= Footer ======= -->
+
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="info-item d-flex">
+                        <i class="bi bi-clock flex-shrink-0"></i>
+                        <div>
+                            <h4>Available:</h4>
+                            <p>Mon-Sat: 8AM - 5PM</p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <!-- Resume Section -->
+                    <div class="text-center mt-4">
+                        <a href="/images/Akulluwinnifred-resume.pdf" class="btn btn-primary" target="_blank" style="background-color: rgb(213, 149, 160); color: white; border-color: rgb(213, 149, 160);margin-left: 900px; width: 200px;">Download My
+                            Resume</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <form action="https://formspree.io/f/mjvndngr" method="POST">
+                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Hire me</h2>
+                <div class="row">
+                    <div class="col-xl-6 form-group">
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Your Email"
+                            required>
+                    </div>
+                    <div class="col-xl-3 form-group">
+                        <select name="country_code" class="form-control" id="country_code" required>
+                            <option value="">Select Country Code</option>
+                            <option value="+1">+1 USA</option>
+                            <option value="+44">+44 UK</option>
+                            <option value="+91">+91 India</option>
+                            <option value="+81">+81 Japan</option>
+                            <option value="+86">+86 China</option>
+                            <option value="+61">+61 Australia</option>
+                            <option value="+49">+49 Germany</option>
+                            <option value="+33">+33 France</option>
+                            <option value="+39">+39 Italy</option>
+                            <option value="+55">+55 Brazil</option>
+                            <option value="+27">+27 South Africa</option>
+                            <option value="+256">+256 Uganda</option>
+                            <option value="+234">+234 Nigeria</option>
+                            <option value="+254">+254 Kenya</option>
+                            <option value="+213">+213 Algeria</option>
+                            <option value="+20">+20 Egypt</option>
+                            <option value="+233">+233 Ghana</option>
+                            <option value="+30">+30 Greece</option>
+                            <option value="+47">+47 Norway</option>
+                            <option value="+34">+34 Spain</option>
+                            <option value="+46">+46 Sweden</option>
+                            <option value="+32">+32 Belgium</option>
+                            <option value="+31">+31 Netherlands</option>
+                            <option value="+48">+48 Poland</option>
+                            <option value="+351">+351 Portugal</option>
+                            <option value="+40">+40 Romania</option>
+                            <option value="+7">+7 Russia</option>
+                            <option value="+65">+65 Singapore</option>
+                            <option value="+82">+82 South Korea</option>
+                            <option value="+41">+41 Switzerland</option>
+                            <option value="+90">+90 Turkey</option>
+                            <option value="+971">+971 United Arab Emirates</option>
+    
+                        </select>
+                    </div>
+                    <div class="col-xl-3 form-group">
+                        <input type="text" name="contact" class="form-control" id="contact"
+                            placeholder="Your Contact Number" required>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" id="message" rows="5" placeholder="Message"
+                        required></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit"
+                        style="border: 2px solid rgb(213, 149, 160);margin-bottom: 20px;background-color: rgb(213, 149, 160);border-radius: 10px; width: 200px;height: 100px; color: white;">Send
+                        Message</button>
+                </div>
+            </form><!-- End Contact Form -->
+        </div>
+
+    </main>
+
     <footer id="footer" class="footer">
 
         <div class="container">
@@ -292,7 +342,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy;Let your journey through the digital realm illuminate the path to endless possibilities.
+                &copy;"Tech it to the next level."
             </div>
 
             <div class="credits">
@@ -301,8 +351,7 @@
             </div>
         </div>
 
-    </footer><!-- End Footer -->
-    <!-- End Footer -->
+    </footer>
 
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
